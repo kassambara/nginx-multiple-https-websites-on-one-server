@@ -10,9 +10,14 @@ knitr::opts_chunk$set(
   comment = "#>"
 )
 ```
+  
+  
 # Host Multiple HTTPS Websites on One Server
 
 provides a template to easily configure the deployement of multiple websites on a single server. Reverse-proxy, nginx configuration files and SSL certificate are created automatically for each website running in a Docker cntainer.
+    
+    
+A detailed explanation is provided at: [How To Host Multiple HTTPS Websites on One Server](https://www.datanovia.com/en/lessons/how-host-multiple-https-websites-on-one-server/)
     
     
 ## Prerequisites
