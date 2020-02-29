@@ -4,6 +4,8 @@ services:
   my-app2:
     image: nginx
     restart: always
+    volumes:
+      - "./:/usr/share/nginx/html"
     environment:
       # NGINX-PROXY ENVIRONMENT VARIABLES: UPDATE ME
       - VIRTUAL_HOST=your-website-one.com 
